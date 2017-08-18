@@ -1,0 +1,9 @@
+Proceso Area_pseint
+
+	Escribir "Ingrese los lados del rectangulo"
+	leer a,b
+	c<- a*b
+	Escribir "El Area es " c
+	
+	
+FinProceso
