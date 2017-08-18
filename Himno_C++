@@ -1,0 +1,51 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+cout<<"Bolivianos: el hado propicio"<<endl;
+cout<<"coronó nuestros votos y anhelo;"<<endl;
+cout<<"es ya libre, ya libre este suelo,"<<endl;
+cout<<"ya cesó su servil condición."<<endl<<endl;
+
+cout<<"Al estruendo marcial que ayer fuera"<<endl<<    
+"y al clamor de la guerra horroroso"<<endl<<
+"siguen hoy, en contraste armonioso,"<<endl<<    
+"dulces himnos de paz y de unión."<<endl<<endl;
+
+cout<<"Loor eterno a los bravos guerreros,cuyo heroico valor y firmeza"<<endl;
+cout<<"conquistaron las glorias que empieza hoy Bolivia feliz a gozar."<<endl;   
+cout<<"Que sus nombres el mármol y el bronce"<<endl;
+cout<<"a remotas edades trasmitan  y en sonoros cantares repitan:"<<endl;   
+cout<<"Libertad, libertad,libertad."<<endl<<endl; 
+
+
+cout<<Aquí alzó la justicia su trono"<<endl;  
+cout<<"que la vil opresión desconoce,"<<endl;  
+cout<<"y en su timbre glorioso legose"<<endl;  
+cout<<"libertad, libertad, libertad."<<endl<<endl;
+
+
+
+cout<<"Esta tierra inocente y hermosa"<<endl;  
+cout<<"que ha debido a Bolívar su nombre"<<endl; 
+cout<<"es la patria feliz donde el hombre"<<endl; 
+cout<<"goza el bien de la dicha y la paz."<<endl;<<endl;
+
+
+
+cout<<"Si extranjero poder alqún día sojuzgar a Bolivia intentare,"<<endl;
+cout<<"al destino fatal se prepare que amenaza a soberbio invasor"<<endl;
+cout<<"Que los hijos del grande Bolívar han ya mil y mil veces jurado morir"<<endl;
+cout<<"antes que ver humillado de la patria el augusto pendón."<<endl;
+
+cout<<"De la patria el alto nombre"<<endl;   
+cout<<"en glorioso esplendor conservemos"<<endl;   
+cout<<"y en sus aras de nuevo juremos"<<endl;   
+cout<<"¡Morir antes que esclavos vivir!"<<endl; 
+
+
+
+
+return 0;
+};
