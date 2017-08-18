@@ -4,9 +4,13 @@ using namespace std;
 
 int main(){
 float a,b;
-cout<<"Ingrese los lados del rectangulo"<<endl;
-cin>>a>>b;
-cout<<"El area es "<<a*b;
+cout<<"Ingrese la base:"
+cin>>a;
+cout<<endl;
+cout<<"Ingrese la base:";
+cin>>b;
+cout<<endl;
+cout<<"El area es: "<<a*b;
 
 
 
