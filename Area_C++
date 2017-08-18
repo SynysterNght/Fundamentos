@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+int a,b;
+cout<<"Ingrese los lados del rectangulo"<<endl;
+cin>>a>>b;
+cout<<"El area es "<<a*b;
+
+
+
+return 0;
+};
