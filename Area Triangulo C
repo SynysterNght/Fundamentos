@@ -1,0 +1,18 @@
+#include <iostream>
+#include "stdafx.h"
+using namespace std;
+
+int main(){
+float a,b;
+cout<<"Ingrese la base:"
+cin>>a;
+cout<<endl;
+cout<<"Ingrese la altura:";
+cin>>b;
+cout<<endl;
+cout<<"El area es: "<<a*b/2;
+
+
+
+return 0;
+};
