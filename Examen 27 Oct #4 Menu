@@ -1,0 +1,73 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void Hola();
+void Menor(int a,int b,int c);
+void absoluto(int x);
+
+
+int main()
+{
+	int n,x;
+	int a,b,c;
+	do{
+		cout<<".......MENU........."<<endl;
+		cout<<"1. Imprimir HOLA"<<endl;
+		cout<<"2. Sacar el menor de tres valores A,B y C enteros"<<endl;
+		cout<<"3.Obtener el valor absoluto de un numero real"<<endl;
+		cout<<"4. FIN"<<endl;
+	cin>>n;
+	switch(n){
+	case 4: break;
+	case 1: Hola() ;break;
+	case 2: cout<<"Ingrese los valores de A, B y C respectivamente"<<endl;
+			cin>>a>>b>>c;
+			Menor(a,b,c);
+			break;
+	case 3: cout<<"Ingrese numero real"<<endl;
+			cin>>x;
+			absoluto(x);
+			break;
+	default: cout<<"Opcion Incorrecta"<<endl;
+	}
+	}while(n!=4);
+
+	return 0;
+}
+
+
+void Hola(){
+	cout<<"HOLA"<<endl;
+}
+
+void Menor(int a,int b,int c){
+	///int a,b,c;
+	bool o=true;
+	//cout<<"Ingrese los valores de A, B y C respectivamente"<<endl;
+	//cin>>a>>b>>c;
+	cout<<"El menor numero es: ";
+	if(a<b){
+		if(a<c){
+			cout<<a<<endl;
+			o=false;
+		}
+	}else{
+		if(b<c) {
+			cout<<b<<endl;
+			o=false;
+		}
+	} 
+	if(o) cout<<c<<endl;
+
+}
+
+void absoluto(int x){
+	//int n;
+	//cout<<"Ingrese numero real"<<endl;
+	//cin>>n;
+	if(x<0) x=(x*-1);
+	cout<<"El Valor es: "<<x<<endl;
+}
