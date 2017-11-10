@@ -1,0 +1,26 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+int main()
+{
+	char l;
+	int s=0;
+	do{
+		cout<<"Ingresar 0 para terminar el programa"<<endl;
+		cout<<"Ingrese una letra"<<endl;
+		cin>>l;
+		
+		if(l>=65 && l<=90)
+			s++;
+	
+	}while(l!='0');
+	cout<<s;
+	getch();
+
+	return 0;
+}
+
